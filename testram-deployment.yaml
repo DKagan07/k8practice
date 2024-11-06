@@ -20,6 +20,8 @@ spec:
           resources:
             limits:
               memory: 256Mi
+            requests:
+              memory: 128Mi
           env:
             - name: MEGABYTES
               valueFrom:
